@@ -8,4 +8,8 @@ noise = np.random.normal(0.0, 1.0, len(x))
 plt.plot(x, y + noise, 'r.')
 plt.plot(x, y, 'b-')
 
+plt.title("Simple Plot")
+plt.xlabel("Weight")
+plt.ylabel("Mass")
+
 plt.show()
